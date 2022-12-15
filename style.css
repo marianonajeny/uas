@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'sans-serif';
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.medsos {
+    padding: 5px 0;
+    background-color: #37E6F7;
+}
+.medsos ul li{
+    display: inline-block;
+    color: #ffff;
+    margin-right: 10px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header h1{
+    float: left;
+    padding: 10px 0;
+    color: #37E6F7;
+}
+header ul {
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+header ul li a:hover{
+    background-color: #37E6F7;
+    color: #ffff;
+}
+
+.header ul li a:hover .dropdown {
+    display: block;
+    background: black;
+    position: absolute;
+    padding: 10px;
+}
+
+.active{
+    background-color: #37E6F7;
+    text-decoration: none;
+}
+.banner {
+    height: 90vh;
+    width: 115%;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner:after{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(55, 230, 247, .6);
+}
+.banner h2{
+    color: #ffff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #ffff;
+}
+.product {
+    width: 80%;
+    margin: 2rem;
+    text-align: center;
+    padding-top: 100px;
+    color: #ffff;
+}
+
+.row  {
+    display: flex;
+}
+.product-col {
+    flex-basis: 30%;
+    background: white;
+    border-radius: 10px;
+    border-bottom: 5px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.product-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.605) ;
+    background-color: royalblue;
+}
+
+
+.option {
+    padding: 0;
+    margin: 0;
+    font-family: 'sans-serif';
+}
+
+.row h2{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.aboutus-col {
+    flex-basis: 31%;
+    background: white;
+    border-radius: 10px;
+    border-bottom: 5px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.aboutus-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2) ;
+    background-color: blueviolet;
+}
